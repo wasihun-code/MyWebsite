@@ -25,6 +25,7 @@ header {
     padding-top: 30px;
     min-height: 70px;   
     border-bottom: #2db978 2px solid;
+    border-top: #2db978 2px solid;
 }
 
 header a{

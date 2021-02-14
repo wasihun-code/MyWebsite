@@ -21,6 +21,7 @@ header {
     padding-top: 30px;
     min-height: 70px;   
     border-bottom: #757136 2px solid;
+    border-top: #757136 2px solid;
 }
 
 .container{
