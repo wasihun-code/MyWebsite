@@ -24,7 +24,7 @@ header {
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;   
-    border-bottom: #e84916 2px solid;
+    border-bottom: #2db978 2px solid;
 }
 
 header a{
@@ -65,7 +65,7 @@ header a:hover{
     padding: 15px;
     color: #ffffff;
     background: #35424a;
-    border-bottom: #cf1ea6 2px solid;
+    border-bottom: #00ff88 2px solid;
 }
 #UserEmail h1{
     float: left;
@@ -93,7 +93,7 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #e84916;
+    background-color:  #2db978;
     text-align: center;
 }
 

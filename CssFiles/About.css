@@ -13,7 +13,7 @@ header {
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;   
-    border-bottom: #e84916 2px solid;
+    border-bottom: #412db1 2px solid;
 }
 .container{
     width: 80%;
@@ -59,7 +59,7 @@ header a:hover{
     padding: 15px;
     color: #ffffff;
     background: #35424a;
-    border-bottom: #bd2c9b 2px solid;
+    border-bottom: #2600ff 2px solid;
 }
 
 .button_1{
@@ -96,6 +96,6 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #e84916;
+    background-color: #412db1;
     text-align: center;
 }

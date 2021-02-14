@@ -20,7 +20,7 @@ header {
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;   
-    border-bottom: #e84916 2px solid;
+    border-bottom: #757136 2px solid;
 }
 
 .container{
@@ -67,7 +67,7 @@ header a:hover{
     padding: 15px;
     color: #ffffff;
     background: #35424a;
-    border-bottom: #b13393 2px solid;
+    border-bottom: #ffee00 2px solid;
 }
 #UserEmail h1{
     float: left;
@@ -95,6 +95,6 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #e84916;
+    background-color: #b9b136;
     text-align: center;
 }
