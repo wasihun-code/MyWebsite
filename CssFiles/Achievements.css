@@ -6,11 +6,27 @@ body {
     margin: 0;
     background-color: #f4f4f4;
 }
+.button_1{
+    height: 38px;
+    background: #e84916;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
 header {
     background: #35434a;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;   
+    border-bottom: #e84916 2px solid;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 header a{
@@ -46,4 +62,30 @@ header .highlight, header .current a{
 header a:hover{
     color: #cccccc;
     font-weight: bold;
+}
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+    border-bottom: #b13393 2px solid;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 38px;
+    width: 250px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e84916;
+    text-align: center;
 }
