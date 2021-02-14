@@ -13,8 +13,8 @@ header {
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;   
-    border-bottom: #4d4092 2px solid;
-    border-top: #4d4092 2px solid;
+    border-bottom: #413679 2px solid;
+    border-top: #413679 2px solid;
 }
 .container{
     width: 80%;
@@ -60,7 +60,7 @@ header a:hover{
     padding: 15px;
     color: #ffffff;
     background: #35424a;
-    border-bottom: #4d4092 2px solid;
+    border-bottom: #413679 2px solid;
 }
 
 .button_1{
@@ -97,6 +97,12 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #4d4092;
+    background-color: #413679;
     text-align: center;
+}
+li a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
 }

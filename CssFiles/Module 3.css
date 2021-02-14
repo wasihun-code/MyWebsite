@@ -24,8 +24,8 @@ header {
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;   
-    border-bottom: #2db978 2px solid;
-    border-top: #2db978 2px solid;
+    border-bottom: #2d7955 2px solid;
+    border-top: #2d7955 2px solid;
 }
 
 header a{
@@ -66,7 +66,7 @@ header a:hover{
     padding: 15px;
     color: #ffffff;
     background: #35424a;
-    border-bottom: #00ff88 2px solid;
+    border-bottom: #2d7955 2px solid;
 }
 #UserEmail h1{
     float: left;
@@ -89,12 +89,11 @@ article#Column1{
     float: left;
     width: 65%;
 }
-
 footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color:  #2db978;
+    background-color:  #2d7955;
     text-align: center;
 }
 
