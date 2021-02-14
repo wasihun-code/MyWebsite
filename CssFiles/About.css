@@ -36,18 +36,18 @@ header li{
     display: inline;
     padding: 0 20px 0 20px;
 }
-header #branding{
+header #MyName{
     float: left; 
 }
 
-header #branding h1{
+header #MyName h1{
     margin: 0;
 }
 header nav{
     float: right;
     margin-top: 10px;
 }
-header .highlight, header .current a{
+header .Bold, header .Page a{
     color:#00a2ff;
     font-weight: bolder;
 }
@@ -55,7 +55,7 @@ header a:hover{
     color: #cccccc;
     font-weight: bold;
 }
-#newsletter{
+#UserEmail{
     padding: 15px;
     color: #ffffff;
     background: #35424a;
@@ -70,25 +70,25 @@ header a:hover{
     padding-right: 20px;
     color: #ffffff;
 }
-#newsletter h1{
+#UserEmail h1{
     float: left;
 }
-#newsletter form {
+#UserEmail form {
     float: right;
     margin-top: 15px;
 }
-#newsletter input[type="email"]{
+#UserEmail input[type="email"]{
     padding: 4px;
     height: 38px;
     width: 250px;
 }
-aside#sidebar{
+aside#Column2{
     float: right;
     width: 30%;
     margin-top: 10px;
 }
 
-article#main-col{
+article#Column1{
     float: left;
     width: 65%;
 }
