@@ -27,6 +27,9 @@ header {
     border-bottom: #773030 2px solid;
    
 }
+p{
+    text-align: justify;
+}
 
 header a{
     color: #ffffff;

@@ -21,6 +21,9 @@ header {
     margin: auto;
     overflow: hidden;
 }
+p{
+    text-align: justify;
+}
 
 header a{
     color: #ffffff;

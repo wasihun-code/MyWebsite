@@ -38,6 +38,9 @@ header ul{
     margin: 0;
     padding: 0;
 }
+p{
+    text-align: justify;
+}
 header li{
     float: left;
     display: inline;
