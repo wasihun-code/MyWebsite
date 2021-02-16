@@ -49,39 +49,12 @@ header nav{
     margin-top: 10px;
 }
 header .Bold, header .Page a{
-    color:#00a2ff;
+    color:#3C92CA;
     font-weight: bolder;
 }
 header a:hover{
     color: #cccccc;
     font-weight: bold;
-}
-#UserEmail{
-    padding: 15px;
-    color: #ffffff;
-    background: #35424a;
-    border-bottom: #413679 2px solid;
-}
-
-.button_1{
-    height: 38px;
-    background: #e84916;
-    border:0;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #ffffff;
-}
-#UserEmail h1{
-    float: left;
-}
-#UserEmail form {
-    float: right;
-    margin-top: 15px;
-}
-#UserEmail input[type="email"]{
-    padding: 4px;
-    height: 38px;
-    width: 250px;
 }
 aside#Column2{
     float: right;
@@ -97,7 +70,7 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #413679;
+    background-color: #3C92CA;
     text-align: center;
 }
 li a{

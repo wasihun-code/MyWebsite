@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 .button_1{
     height: 38px;
@@ -24,8 +24,7 @@ header {
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;   
-    border-bottom: #2d7955 2px solid;
-    border-top: #2d7955 2px solid;
+    border-bottom: #812749 2px solid;
 }
 
 header a{
@@ -55,30 +54,12 @@ header nav{
     margin-top: 10px;
 }
 header .Bold, header .Page a{
-    color:#00a2ff;
+    color:#a2ec18;
     font-weight: bolder;
 }
 header a:hover{
     color: #cccccc;
     font-weight: bold;
-}
-#UserEmail{
-    padding: 15px;
-    color: #ffffff;
-    background: #35424a;
-    border-bottom: #2d7955 2px solid;
-}
-#UserEmail h1{
-    float: left;
-}
-#UserEmail form {
-    float: right;
-    margin-top: 15px;
-}
-#UserEmail input[type="email"]{
-    padding: 4px;
-    height: 38px;
-    width: 250px;
 }
 aside#Column2{
     float: right;
@@ -93,7 +74,7 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color:  #2d7955;
+    background-color:  #9ed33a;
     text-align: center;
 }
 
