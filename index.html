@@ -12,11 +12,11 @@
         </div>
         <nav>
             <ul>
-                <li class = "page"> <a href="index.html"> Home</a></li> 
-                <li ><a href = "Module 1.html"> Module 1 </a></li>
-                <li> <a href = "Module 2.html"> Module 2 </a> </li>
-                <li> <a href = "Module 3.html">  Module 3 </a></li>
-                <li> <a href = "Auto Biography.html"> Auto Biography </a> </li>               
+                <li class = "button"> <a class = "button" href="index.html"><button id="Home">Home</button> </a></li> 
+                <li ><a class = "button" href = "Module 1.html"><button id="Module 1">  Module 1 </button> </a></li>
+                <li> <a class = "button" href = "Module 2.html"><button id="Module 2"> Module 2  </button></a> </li>
+                <li> <a class = "button" href = "Module 3.html"><button id="Module 3"> Module 3</button>  </a></li>
+                <li> <a class = "button" href = "Auto Biography.html"> <button id="Biography">Auto Biography</button>  </a> </li>               
             </ul>
         </nav>
     </div>
@@ -63,12 +63,13 @@
             <?xml version="1.0" encoding="iso-8859-1"?>
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="30px" y="100px"
                  viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
-            <a href = "index.html"> <path style="fill:#EFEFEF;" d="M501.333,236.666c0,0.125,0,0.251-0.001,0.377c-0.111,22.696-18.751,40.956-41.447,40.956H53.532
+                 <a xLink:href = "index.html"> <g class="home">   <path class = "Home" style="fill:#EFEFEF;" d="M501.333,236.666c0,0.125,0,0.251-0.001,0.377c-0.111,22.696-18.751,40.956-41.447,40.956H53.532
                 c-19.425,0-36.321-13.476-40.469-32.453c-1.564-7.16-2.396-14.376-2.396-20.88c0-41.24,33.427-74.667,74.667-74.667
                 c4.64,0,9.187,0.427,13.6,1.24c2.72-28.387,26.627-50.573,55.733-50.573c6.667,0,13.053,1.16,18.973,3.307
                 c17.933-46.4,62.973-79.307,115.693-79.307c68.48,0,124,55.52,124,124c0,4.973-0.293,9.88-0.867,14.693
                 c4.6-0.893,9.347-1.36,14.2-1.36C467.907,161.999,501.333,195.426,501.333,236.666z"/>
-            </a>
+            </g>     </a>
+       
                 <a href = "module 2.html"><circle style="fill:#E8594F;" cx="208" cy="460.666" r="26.667"/></a>
             <g>
                     <a href = "module 3.html"><circle style="fill:#61C7D2;" cx="304" cy="460.666" r="26.667"/></a>
@@ -109,7 +110,12 @@
                     c0,4.5-0.267,9.019-0.792,13.432c-0.403,3.384,0.835,6.756,3.331,9.075c2.496,2.32,5.948,3.307,9.295,2.657
                     c3.979-0.772,8.072-1.164,12.167-1.164c35.289,0,64,28.711,64,64V236.991z"/>
             </g><g></g> <g> </g> <g>  </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g><g> </g>  <g>  </g>  <g> </g> <g> </g> <g> </g> <g> </g> <g> </g>
-            </svg>
+            <script> 
+                const HomeButton = document.querySelector('#Home');
+                const Home = document.querySelector('.Home');
+                HomeButton.addEventListener('click', e =>{ Home.classList.toggle('removed');});
+            </script>
+        </svg>
         </aside>
     </div>
 </section>
