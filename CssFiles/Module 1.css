@@ -54,7 +54,7 @@ header nav{
     margin-top: 10px;
 }
 header .Bold, header .Page a{
-    color:#a2ec18;
+    color:#9fd43b;
     font-weight: bolder;
 }
 header a:hover{
@@ -74,7 +74,7 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color:  #9ed33a;
+    background-color:  #95b856;
     text-align: center;
 }
 p{
